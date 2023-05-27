@@ -58,6 +58,14 @@ sh phoenix1.sh
 
 It will print all the results.
 
+Running SPEC.
+mkdir tmp
+cd tmp
+copy cpu2017-1_0_5.iso to the current folder
+cp ../resources/spec.sh .
+sh spec.sh
+
+
 
 To compile a program test.c using CGuard, use the following command
 path-to-CGuard_proj/build/bin/clang -fsanitize=fastaddress -O3 test.c -L path-to-CGuard_proj/jemalloc/lib -ljemalloc_cg -lsupport
