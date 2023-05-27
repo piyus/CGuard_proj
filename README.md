@@ -6,7 +6,7 @@ Building CGuard:
 Clone the project repository:
 git clone https://github.com/piyus/CGuard_proj.git
 cd CGuard_proj
-git submodule update --init
+git submodule update --remote --merge --init
 
 Install dependencies:
 sh resources/dependency.sh
