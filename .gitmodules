@@ -1,0 +1,18 @@
+[submodule "llvm"]
+	path = llvm
+	url = https://github.com/piyus/llvm_cg
+[submodule "clang"]
+	path = clang
+	url = https://github.com/piyus/clang_cg
+[submodule "changes"]
+	path = changes
+	url = https://github.com/piyus/changes_cg
+[submodule "examples"]
+	path = examples
+	url = https://github.com/piyus/examples_cg
+[submodule "jemalloc"]
+	path = jemalloc
+	url = https://github.com/piyus/jemalloc_cg
+[submodule "resources"]
+	path = resources
+	url = https://github.com/piyus/resources_cg
