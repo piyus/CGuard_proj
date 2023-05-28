@@ -1,6 +1,7 @@
 
 Welcome to the CGuard repository.  
 
+# Getting started
 
 # Clone project repository:  
 git clone https://github.com/piyus/CGuard_proj.git  
@@ -15,6 +16,7 @@ sh resources/dependency.sh
 
 # To compile CGuard and run Phoenix follow the steps below  
 cp resources/cg.sh .  
+chmod +x cg.sh  
 ./cg.sh  
 
 
@@ -52,6 +54,7 @@ chmod +x spec_cg.sh
 mkdir native  
 cd native  
 cp ../resources/native.sh .  
+chmod +x native.sh  
 ./native.sh  
 
 # To see the phoenix results  
