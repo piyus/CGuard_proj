@@ -44,9 +44,8 @@ mkdir -p tmp
 cd -p tmp  
 ln -s path-to-cpu2017-1_0_5.iso .  
 cp ../resources/spec_cg.sh .  
-sh spec_cg.sh  
-cd spec  
-./runspec_cg.sh  
+chmod +x spec_cg.sh  
+./spec_cg.sh  
 
 
 # To compile Native and run Phoenix follow the steps below  
@@ -66,9 +65,8 @@ mkdir tmp1
 cd tmp1  
 ln -s path-to-cpu2017-1_0_5.iso .  
 cp ../../resources/spec.sh .  
-sh spec.sh  
-cd spec  
-./runspec.sh  
+chmod +x spec.sh  
+./spec.sh  
 
 
 # Below are the steps that cg.sh follows  
